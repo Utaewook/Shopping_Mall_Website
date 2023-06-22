@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.home_image{
+    text-align: center;
+}
+
+.product_item{
+    
+}
+
+.product_list{
+    display: grid;
+    width: 1000px;
+    text-align: center;
+    grid-template-columns: repeat(5,200px);
+    grid-template-rows: repeat(2, 200px);
+}
